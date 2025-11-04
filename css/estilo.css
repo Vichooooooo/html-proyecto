@@ -171,10 +171,9 @@ main{
 }
 
 .parte1medio3 .otrapagina{
-        font-size: 10rem;
-        color: aquamarine;
+    font-size: 10rem;
+    color: aquamarine;
 }
-
 #parte1medio2{
     background-color: rgba(240, 255, 255, 0);
     width: 45rem;
@@ -549,6 +548,8 @@ footer{
         padding-top: 6rem;
     }
 
+
+    
     .otrapagina{
         font-size:8rem
     }
@@ -567,6 +568,5 @@ footer{
 
     
 }
-
 
 
