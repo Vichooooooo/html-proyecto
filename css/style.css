@@ -121,14 +121,14 @@ h2 {
     margin-left: 2.5rem;
     border-radius: 5rem;
     text-align: center;
-    width: 100rem;
+    width: 95%;
     align-items: flex-start;
 }
 
 .infoadentr {
     background-color: rgba(255, 255, 255, 0.61);
-    margin-right: 2.5rem;
-    width: 50rem;
+    margin-left: 2.5rem;
+    width: 50%;
     text-align: center;
     border-radius: 5rem;
     display: flex;
@@ -141,3 +141,106 @@ h2 {
     font-optical-sizing: auto;
     font-style: normal;
   }
+
+footer{
+
+    background-color: rgba(43, 43, 43, 0.76);
+    width: 100%;
+    height: 20rem;
+    border-radius: 2rem;
+    border-style:groove;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.footercosas{
+    color: aliceblue;
+    padding-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    
+}
+
+  @media (max-width: 768px) {
+
+    .archivo-black-regular{
+        text-align: center;
+    }
+
+    nav {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    nav > div > a {
+        font-size: 1.6rem;
+        width: 100%;
+        padding: 0.6rem 1.5rem;
+    }
+
+    .divprincipal-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+
+    .divsecundario {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 20rem;
+    }
+
+    .imagen {
+        max-height: 30rem;
+    }
+}
+
+@media (max-width: 320px) {
+    nav {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    nav > div > a {
+        font-size: 1.3rem;
+        padding: 1.5rem;
+        width: 90%;
+        text-align: center;
+    }
+
+    .divsecundario {
+        width: 90%;
+        max-width: 20rem;
+        margin: 1rem auto;
+        padding: 1rem;
+    }
+
+    .imagen {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .fuente {
+        font-size: 1.3rem;
+    }
+
+    .infoadi {
+        flex-direction: column;
+        padding: 1rem;
+        margin-top: 1.5rem;
+        width: 90%;
+    }
+
+    .infoadentro, .infoadentr {
+        margin: 0.8rem 0;
+        padding: 1rem;
+        font-size: 1.3rem;
+        max-width: 25.5rem;
+    }
+}
+
