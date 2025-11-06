@@ -198,7 +198,7 @@ footer{
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 425px) {
     nav {
         flex-direction: column;
         justify-content: flex-start;
@@ -243,4 +243,5 @@ footer{
         max-width: 25.5rem;
     }
 }
+
 
